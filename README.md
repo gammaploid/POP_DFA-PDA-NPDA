@@ -8,13 +8,13 @@ Deterministic Finite Automaton (DFA), Pushdown Automaton (PDA), and Non-determen
 Clone:
 
 ```sh
-git clone https://github.com/gammaploid/DFA-PDA.git
+git clone https://github.com/gammaploid/DFA-PDA-NPDA.git
 ```
 
 After cloning, navigate into the project directory:
 
 ```sh
-cd /DFA-PDA
+cd /DFA-PDA-NPDA
 ```
 
 ### Compile
