@@ -5,10 +5,22 @@ Deterministic Finite Automaton (DFA), Pushdown Automaton (PDA), and Non-determen
 
 ## Usage Guide (Mac/Linux/Windows)
 
+Clone:
+
+```sh
+git clone https://github.com/gammaploid/DFA-PDA.git
+```
+
+After cloning, navigate into the project directory:
+
+```sh
+cd /DFA-PDA
+```
+
 ### Compile
 
 To compile any of the automaton programs, open your terminal in the project directory and run:
-Mac
+
 ```sh
 gcc dfa.c -o dfa
 gcc pda.c -o pda
