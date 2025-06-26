@@ -1,4 +1,5 @@
-# DFA-PDA-NPDA
+# DFA, PDA, and NPDA in Procedural-Oriented Programming
+
 
 Deterministic Finite Automaton (DFA), Pushdown Automaton (PDA), and Non-deterministic Pushdown Automaton (NPDA) simulation in procedural style programming.
 
@@ -55,4 +56,9 @@ Each program will prompt you for input and display results in the CLI with examp
 
 ## License
 
+<<<<<<< HEAD
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+=======
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+>>>>>>> temp-branch
