@@ -1,6 +1,18 @@
-# DFA-PDA
-Deterministic Finite Automaton (DFA), Pushdown Automaton (PDA), and Non-determenstic Pushdown Automaton (NPDA) simulation in procedural style programming
- 
+# DFA-PDA-NPDA
+
+Deterministic Finite Automaton (DFA), Pushdown Automaton (PDA), and Non-deterministic Pushdown Automaton (NPDA) simulation in procedural style programming.
+
+## Demonstrations
+
+### Deterministic Finite Automaton (DFA)
+![DFA Demo](demo/dfa.jpg)
+
+### Pushdown Automaton (PDA)
+![PDA Demo](demo/pda.jpg)
+
+### Non-deterministic Pushdown Automaton (NPDA)
+![NPDA Demo](demo/npda.jpg)
+
 ---
 
 ## Usage Guide (Mac/Linux/Windows)
@@ -8,13 +20,13 @@ Deterministic Finite Automaton (DFA), Pushdown Automaton (PDA), and Non-determen
 Clone:
 
 ```sh
-git clone https://github.com/gammaploid/DFA-PDA-NPDA.git
+git clone https://github.com/gammaploid/POP_DFA-PDA-NPDA.git
 ```
 
 After cloning, navigate into the project directory:
 
 ```sh
-cd /DFA-PDA-NPDA
+cd POP_DFA-PDA-NPDA
 ```
 
 ### Compile
@@ -43,9 +55,5 @@ Each program will prompt you for input and display results in the CLI with examp
 
 ## License
 
-```text
-This project is liscenced under the MIT License
-
-Copyright (c) 2024 gammaploid
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
