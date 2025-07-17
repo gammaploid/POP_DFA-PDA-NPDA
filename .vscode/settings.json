@@ -1,0 +1,18 @@
+{
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000",
+        "activityBar.background": "#1F3034",
+        "titleBar.activeBackground": "#2B4349",
+        "titleBar.activeForeground": "#FAFCFC"
+    }
+} // {
+//     "workbench.colorCustomizations": {
+//         "terminal.background": "#201e1e",
+//         "sideBar.background": "#201e1e",
+//         "sideBarSectionHeader.background": "#201e1e",
+//         "panel.background": "#201e1e",
+//         "activityBar.background": "#1F3034",
+//         "titleBar.activeBackground": "#2B4349",
+//         "titleBar.activeForeground": "#FAFCFC"
+//     }
+// }

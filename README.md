@@ -1,64 +1,54 @@
-# DFA, PDA, and NPDA in Procedural-Oriented Programming
+# Automata Simulator Suite
 
+Cross-platform implementation of DFA, PDA, and NPDA simulators with both command-line and GUI interfaces.
 
-Deterministic Finite Automaton (DFA), Pushdown Automaton (PDA), and Non-deterministic Pushdown Automaton (NPDA) simulation in procedural style programming.
+## GUI Demonstration
 
-## Demonstrations
+| Main Interface | Automated Testing | Manual Input |
+| :---: | :---: | :---: |
+| ![GUI Interface](demo/g1.png) | ![GUI Automated Testing](demo/g2.png) | ![GUI Manual Input](demo/g3.png) |
 
-### Deterministic Finite Automaton (DFA)
-![DFA Demo](demo/dfa.jpg)
+## Features
 
-### Pushdown Automaton (PDA)
-![PDA Demo](demo/pda.jpg)
+- **DFA**: Language with exactly one '1' in {0,1}*
+- **PDA**: Language {0^n 1^(n+1)} 
+- **NPDA**: Palindromes in {0,1}*
+- Command-line tools with interactive testing
+- Unified GUI application with all three simulators
+- Cross-platform support (Windows, macOS, Linux)
 
-### Non-deterministic Pushdown Automaton (NPDA)
-![NPDA Demo](demo/npda.jpg)
+## CLI Demonstrations
 
----
+| DFA Demo | PDA Demo | NPDA Demo |
+| :---: | :---: | :---: |
+| ![DFA Demo](demo/dfa.gif) | ![PDA Demo](demo/pda.gif) | ![NPDA Demo](demo/npda.gif) |
 
-## Usage Guide (Mac/Linux/Windows)
+## Quick Start
 
-Clone:
-
-```sh
+```bash
 git clone https://github.com/gammaploid/POP_DFA-PDA-NPDA.git
-```
-
-After cloning, navigate into the project directory:
-
-```sh
 cd POP_DFA-PDA-NPDA
+
+# Build command-line tools (no dependencies)
+make dfa pda npda
+
+# Build GUI (requires GLFW, GLEW, OpenGL)
+make gui
+
+# Run
+./dfa    # DFA command-line interface
+./pda    # PDA command-line interface  
+./npda   # NPDA command-line interface
+./gui    # GUI application (all simulators)
 ```
 
-### Compile
+## Dependencies
 
-To compile any of the automaton programs, open your terminal in the project directory and run:
+- **Command-line tools**: None (pure C)
+- **GUI application**: GLFW3, GLEW, OpenGL 3.3+
 
-```sh
-gcc dfa.c -o dfa
-gcc pda.c -o pda
-gcc npda.c -o npda
-```
-
-### Run
-
-After compiling, run the desired automaton:
-
-```sh
-./dfa    # For the DFA 
-./pda    # For the PDA 
-./npda   # For the NPDA
-```
-
-Each program will prompt you for input and display results in the CLI with example of accepeted strings by the the state machines. You can run multiple tests in a row by entering `y` when prompted.
-
----
+See [BUILD.md](BUILD.md) for detailed installation instructions.
 
 ## License
 
-<<<<<<< HEAD
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
-=======
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
->>>>>>> temp-branch
+MIT License - see [LICENSE](LICENSE) for details.
