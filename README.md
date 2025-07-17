@@ -6,7 +6,7 @@ Cross-platform implementation of DFA, PDA, and NPDA simulators with both command
 
 | Main Interface | Automated Testing | Manual Input |
 | :---: | :---: | :---: |
-| ![GUI Interface](demo/g1.png) | ![GUI Automated Testing](demo/g2.png) | ![GUI Manual Input](demo/g3.png) |
+| ![GUI Interface](Demo/g1.png) | ![GUI Automated Testing](Demo/g2.png) | ![GUI Manual Input](Demo/g3.png) |
 
 ## Features
 
@@ -21,7 +21,7 @@ Cross-platform implementation of DFA, PDA, and NPDA simulators with both command
 
 | DFA Demo | PDA Demo | NPDA Demo |
 | :---: | :---: | :---: |
-| ![DFA Demo](demo/dfa.gif) | ![PDA Demo](demo/pda.gif) | ![NPDA Demo](demo/npda.gif) |
+| ![DFA Demo](Demo/dfa.gif) | ![PDA Demo](Demo/pda.gif) | ![NPDA Demo](Demo/npda.gif) |
 
 ## Quick Start
 
